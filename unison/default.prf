@@ -1,0 +1,19 @@
+# Unison preferences file
+copythreshold = 1024
+fastcheck = true
+prefer = newer
+batch = true
+times = true
+ignore = Regex .*/incoming/.*
+ignore = Regex .*/logs/.*
+ignore = Regex .*/data/.*
+ignore = Regex .*/temp/.*
+ignore = Regex .*/flags/.*
+ignore = Regex .*/arch/.*
+ignore = Regex .*/raw/.*
+ignore = Regex .*/archive/.*
+ignore = Regex .*/g0cbt*/.*
+ignore = Regex .*/.ssh/.*
+ignore = Name {*tmp,*.log,*.history}
+logfile = ~/.unison/unison.log
+sshargs = -C
